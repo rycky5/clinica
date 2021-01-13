@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Academia Sharepoint</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button class="scrollBtn"><i class="fas fa-arrow-alt-circle-up"></i></button>
+    <header class="header">
+        <div class="navbar-area">
+            <div class="navbar-container">
+                <nav class="navbar">
+                    <a href="#Logo" class="navbar-logo"><i class="fas fa-heartbeat"></i> Haplife</a>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Planos</a>
+                            <ul>
+                                <li><a href="#">Plano de saúde</a>
+                                    <ul>
+                                        <li><a href="#">Plano de saúde infantil</a></li>
+                                        <li><a href="#">Plano de saúde família</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Plano odontológico</a>
+                                    <ul>
+                                        <li><a href="#">Plano odontológico infantil</a></li>
+                                        <li><a href="#">Plano odontológico família</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sobre nós</a>
+                            <ul>
+                                <li><a href="#">Quem somos</a></li>
+                                <li><a href="#">Nossa História</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contatos</a></li>
+                    </ul>
+                    <button class="nav-toggler">
+            <span></span>
+          </button>
+                </nav>
+            </div>
+        </div>
+
+        <div class="intro-area">
+            <div class="forms-container">
+                <div class="forms-frame">
+                    <div class="forms-nav">
+                        <ul>
+                            <li><a class="btn">Cadastro</a></li>
+                        </ul>
+                        <form class="intro-form">
+                            <fieldset class="form-field">
+                                <label class="form-label">NOME</label><input class="form-input-style" type="text"><br>
+                                <label class="form-label">CPF</label><input class="form-input-style" type="password"><br>
+                                <label class="form-label">DATA DE NASCIMENTO</label><input class="form-input-style" type="date"><br>
+                                <label class="form-label">NÚMERO</label><input class="form-input-style" type="number"><br>
+                                <div class="form-field-radio">
+                                    <input type="radio" id="homem" name="gender" value="homem">
+                                    <label for="male">Homem</label><br>
+                                    <input type="radio" id="mulher" name="gender" value="mulher">
+                                    <label for="female">Mulher</label><br>
+                                    <input type="radio" id="nonbinarie" name="gender" value="nonbinarie">
+                                    <label for="female">Não-binário</label><br>
+                                </div>
+                                <input class="submit-btn" type="submit" value="CADASTRE-SE">
+                                <div class="submit-btn-border"></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer>
+        <section class="footer-section">
+            <div class="footer-menu">
+                <div class="footer-item">
+                    <h2 class="footer-title">Menu</h2>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Termos de adesão</a></li>
+                        <li><a href="#">Políticas de Privacidade</a></li>
+                        <li><a href="#">Atendimento ao usuário</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-menu">
+                <div class="footer-item">
+                    <h2 class="footer-title">Exames e procedimentos</h2>
+                    <ul>
+                        <li><a href="#">DNA (Pai e Filho)</a></li>
+                        <li><a href="#">Eletrocardiograma (ECG)</a></li>
+                        <li><a href="#">Infiltração de Joelhos</a></li>
+                        <li><a href="#">Radiografia (Raio X)</a></li>
+                        <li><a href="#">Tomografia Computadorizada</a></li>
+                        <li><a href="#">Ultrassom com Doppler</a></li>
+                        <li><a href="#">Ultrassom Translucência Nucal</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-menu">
+                <div class="footer-item">
+                    <h2 class="footer-title">Atendimento ao Usuário - SAC</h2>
+                    <ul>
+                        <li>
+                            <p>Call Center (Capitais): 4002 8922</p>
+                        </li>
+                        <li>
+                            <p>Call Center (Interior): 0300 4003 8921</p>
+                        </li>
+                        <li>
+                            <p>Clientes Pernambuco: 4002 0300 4003</p>
+                        </li>
+                        <li>
+                            <p>SAC: 0800 400 2892</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-menu">
+                <div class="footer-item">
+                    <h2 class="footer-title">Nossas Redes</h2>
+                    <ul class="footer-social">
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer-middle">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Mapa do Site</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+                <li><a href="#">Política de Cookies</a></li>
+                <li><a href="#">Código de ética</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2021 Haplife clinicas, Inc. - Todos direitos reservados</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
